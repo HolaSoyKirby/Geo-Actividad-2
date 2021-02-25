@@ -77,28 +77,6 @@
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script>
-        AOS.init();
-
-        function iniciaMapa() {
-            var coordenadas = {
-                lat: 21.153010083052706,
-                lng: -101.71115266137599
-            }
-
-            var map = new google.maps.Map(document.getElementById('mapa'), {
-                center: coordenadas,
-                zoom: 15
-            });
-
-            var sede = new google.maps.Marker({
-                position: coordenadas,
-                map,
-                title: "BASE DE OPERACIONES",
-            });
-        }
-    </script>
 </body>
 
 </html>
